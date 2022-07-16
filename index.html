@@ -47,29 +47,29 @@
                 <form>
                     <div class="field padding-bottom--24">
                         <label for="shedA">SHED_A</label>
-                        <input type="number" name="shedA" placeholder="Enter Quantity in Litres (L)" id="shedA">
+                        <input type="number" name="shedA" placeholder="Enter Quantity in Litres (L)" id="sA">
                     </div>
                     <div class="field padding-bottom--24">
                         <div class="label-shed">
                             <label for="shedB">SHED_B</label>
                         </div>
-                        <input type="number" name="shedB" placeholder="Enter Quantity in Litres (L)" id="shedB">
+                        <input type="number" name="shedB" placeholder="Enter Quantity in Litres (L)" id="sB">
                     </div>
                     <div class="field padding-bottom--24">
                         <label for="shedA">SHED_C</label>
-                        <input type="number" name="shedC" placeholder="Enter Quantity in Litres (L)" id="shedC">
+                        <input type="number" name="shedC" placeholder="Enter Quantity in Litres (L)" id="sC">
                     </div>
                     <div class="field padding-bottom--24">
                         <div class="label-shed">
                             <label for="shedB">SHED_D</label>
                         </div>
-                        <input type="number" name="shedD" placeholder="Enter Quantity in Litres (L)" id="shedD">
+                        <input type="number" name="shedD" placeholder="Enter Quantity in Litres (L)" id="sD">
                     </div>
                     <div class="field padding-bottom--24">
-                        <input type="submit" name="submit" value="Submit" onclick="reportMe();">
+                        <input type="submit" onclick="reportMe();" name="submit" value="Submit" id="sub">
                     </div>
-                    <div class="field">
-                        <a class="ssolink" onclick="resetMe();">Reset</a>
+                    <div class="reset-field">
+                        <button id="resetMe" type="reset">Reset</button>
                     </div>
                 </form>
             </div>
@@ -82,13 +82,9 @@
             </div>
         </div>
     </div>
-    <li>
-        <div class="outputDisplay">
-            <h3 id="displayTitle">Production Summary</h3>
-            <hr>
-            <p id="outputData"></p>
-        </div>
-    </li>
+    <div class="output">
+        <h1>Report on Quantity of milk produced per shed and total amount of milk produced by all sheds.</h1>
+    </div>
 </div>
 <script src="./assets/index.js"></script>
 </body>
