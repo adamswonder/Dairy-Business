@@ -9,7 +9,7 @@
 
 /* Navigation Bar */
 .logo {
-    color: #4a2c2a;
+    color: rgb(117, 60, 42);
 }
 
 .nav-bar {
@@ -29,7 +29,7 @@
 }
 
 .nav-links>ul>li>a {
-    color: #4a2c2a;
+    color: rgb(117, 60, 42);
     list-style: none;
     font-size: 20px;
     text-decoration: none;
@@ -58,14 +58,14 @@
     font-size: 18px;
     font-weight: 700;
     padding: 15px;
-    background-color: #4a2c2a;
+    background-color: rgb(117, 60, 42);
     color: white;
     cursor: pointer;
 }
 
 #production-btn {
     color: white;
-    background-color: #4a2c2a;
+    background-color: rgb(117, 60, 42);
     border: none;
     border-radius: 20px;
     padding: 15px;
@@ -200,14 +200,14 @@ label {
         rgba(0, 0, 0, 0) 0px 0px 0px 0px;
 }
 
-input[type="submit"] {
+input[type="button"] {
     background-color: rgb(117, 60, 42);
     color: #fff;
     font-weight: 600;
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
+input[type="button"]:hover {
     background-color: #d47434;
     cursor: pointer;
 }
@@ -217,7 +217,6 @@ input[type="submit"]:hover {
 }
 
 #resetMe {
-    /* align-items: center; */
     border: none;
     border-radius: 10px;
     font-size: 17px;
@@ -231,6 +230,30 @@ input[type="submit"]:hover {
 #resetMe:hover {
     background-color: #d47434;
     cursor: pointer;
+}
+
+/* Output & Summary */
+.output {
+    margin-top: 50px;
+    margin-left: 190px;
+    margin-right: auto;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(117, 60, 42);
+    color: #ffffff;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+.output h1 {
+    font-size: xx-large;
+
+}
+.output p{
+    font-size: large;
+    font-weight: 700;
+    color: #1a1f36;
 }
 
 /* Foooter link styling */
