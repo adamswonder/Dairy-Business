@@ -251,9 +251,10 @@ input[type="button"]:hover {
 
 }
 .output p{
+    line-height: 30px;
     font-size: large;
     font-weight: 700;
-    color: #1a1f36;
+    color: #ffffff;
 }
 
 /* Foooter link styling */
