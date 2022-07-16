@@ -47,42 +47,50 @@
                 <form>
                     <div class="field padding-bottom--24">
                         <label for="shedA">SHED_A</label>
-                        <input type="number" name="shedA" placeholder="Enter Quantity in Litres (L)">
+                        <input type="number" name="shedA" placeholder="Enter Quantity in Litres (L)" id="shedA">
                     </div>
                     <div class="field padding-bottom--24">
                         <div class="label-shed">
                             <label for="shedB">SHED_B</label>
                         </div>
-                        <input type="number" name="shedB" placeholder="Enter Quantity in Litres (L)">
+                        <input type="number" name="shedB" placeholder="Enter Quantity in Litres (L)" id="shedB">
                     </div>
                     <div class="field padding-bottom--24">
                         <label for="shedA">SHED_C</label>
-                        <input type="number" name="shedC" placeholder="Enter Quantity in Litres (L)">
+                        <input type="number" name="shedC" placeholder="Enter Quantity in Litres (L)" id="shedC">
                     </div>
                     <div class="field padding-bottom--24">
                         <div class="label-shed">
                             <label for="shedB">SHED_D</label>
                         </div>
-                        <input type="number" name="shedD" placeholder="Enter Quantity in Litres (L)">
+                        <input type="number" name="shedD" placeholder="Enter Quantity in Litres (L)" id="shedD">
                     </div>
                     <div class="field padding-bottom--24">
-                        <input type="submit" name="submit" value="Continue">
+                        <input type="submit" name="submit" value="Submit" onclick="reportMe();">
                     </div>
                     <div class="field">
-                        <a class="ssolink" href="#">Reset</a>
+                        <a class="ssolink" onclick="resetMe();">Reset</a>
                     </div>
                 </form>
             </div>
         </div>
         <div class="footer-link padding-top--24">
             <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
-                <span><a href="#">© DairyBusiness</a></span>
+                <span><a href="#">© Dairy Business</a></span>
                 <span><a href="#">Contact</a></span>
                 <span><a href="#">Privacy & terms</a></span>
             </div>
         </div>
     </div>
+    <li>
+        <div class="outputDisplay">
+            <h3 id="displayTitle">Production Summary</h3>
+            <hr>
+            <p id="outputData"></p>
+        </div>
+    </li>
 </div>
+<script src="./assets/index.js"></script>
 </body>
 
 </html>
