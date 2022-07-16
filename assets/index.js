@@ -19,11 +19,11 @@ milkProduce = () => {
     document.getElementById("o4").innerHTML = "Your production in Shed D is " + shedD + " litres per day ";
     console.log(shedD);
 
-    const data = [shedA, shedB, shedC, shedD]
-    const sum = data.reduce((x, y) => x + y, 0);
-    var totalProduction = parseInt(sum);
+    const sum = shedA + shedB + shedC + shedD;
+    let totalProduction = sum;
     document.getElementById("o5").innerHTML = "Your production in all Sheds is " + totalProduction + " litres per day ";
-    console.log(totalProduction)
+    console.log(totalProduction);
+
 }
 
 addBtn.addEventListener("click", milkProduce);
