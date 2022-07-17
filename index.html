@@ -25,8 +25,8 @@
                 </ul>
             </div>
             <div class="button">
-                <button id="production-btn" class="btn">Production</button>
-                <button class="btn">Get Started</button>
+                <button id="production-btn" class="btn">LogIn</button>
+                <button class="btn">Sign Up</button>
             </div>
         </div>
         <hr style="height:1px; width:80%; background-color:#4a2c2a; margin:auto;">
@@ -66,7 +66,10 @@
                         <input type="number" name="shedD" placeholder="Enter Quantity in Litres (L)" id="sD">
                     </div>
                     <div class="field padding-bottom--24">
-                        <input type="button" id="addBtn" name="submit" value="Submit">
+                        <input type="button" id="genreport" name="submit" value="Get Milk per Shed">
+                    </div>
+                    <div class="field padding-bottom--24">
+                        <input type="button" id="totalprod" name="totalproduction" value="Get Total Milk Production">
                     </div>
                     <div class="reset-field">
                         <button id="resetMe" type="reset">Reset</button>
@@ -87,7 +90,7 @@
     </div>
 </div>
 <div class="output">
-    <h1>Report on Quantity of milk produced :-</h1>
+    <h1>Quantity of milk produced :-</h1>
     <h2>Per shed</h2>
     <section id="report">
         <p id="o1"></p>
@@ -95,9 +98,13 @@
         <p id="o3"></p>
         <p id="o4"></p>
     </section>
-    <h2>By all sheds</h2>
-    <section>
-        <p id="o5"></p>
+
+</div>
+<div class="output">
+    <h1>Total Production :-</h1>
+    <h2>In all sheds</h2>
+    <section id="report">
+        <p id="totals"></p>
     </section>
 </div>
 <script src="./assets/index.js" type="text/javascript"></script>
