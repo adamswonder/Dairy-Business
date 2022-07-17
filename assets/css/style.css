@@ -246,8 +246,9 @@ input[type="button"]:hover {
     margin-bottom: 40px;
     padding: 30px;
 }
-.output h1 {
+.output h1 ,h2{
     font-size: xx-large;
+    text-align: center;
 
 }
 .output p{
