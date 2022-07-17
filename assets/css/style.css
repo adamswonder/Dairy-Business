@@ -192,6 +192,15 @@ label {
         rgba(0, 0, 0, 0) 0px 0px 0px 0px,
         rgba(0, 0, 0, 0) 0px 0px 0px 0px;
 }
+.income-ot input[type="button"]{
+    background-color: rgb(117, 60, 42);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    width: 13%;
+    margin-left: 43%;
+    margin-right: 45%;
+}
 .reset-pass a,
 label {
     font-size: 14px;
@@ -260,15 +269,15 @@ input[type="button"]:hover {
 .output {
     margin-top: 50px;
     margin-left: 190px;
-    margin-right: auto;
-    width: 35%;
-    justify-content: center;
+    /* margin-right: auto; */
+    width: 90%;
+    /* justify-content: center; */
     align-items: center;
     background: rgb(117, 60, 42);
     color: #ffffff;
     border-radius: 4px;
     margin-bottom: 40px;
-    padding: 30px;
+    padding: 20px;
 }
 .output h1 ,h2{
     font-size: xx-large;
@@ -306,4 +315,10 @@ input[type="button"]:hover {
 .center-center {
     align-items: center;
     justify-content: center;
+}
+/* Generated report */
+.generated-report{
+    display: flex;
+    width: 90%;
+    
 }
