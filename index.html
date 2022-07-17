@@ -78,54 +78,66 @@
             </div>
         </div>
         <!-- form two -->
-
-        <!-- endform -->
-        <!-- <div class="footer-link padding-top--24">
-            <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
-                <span><a href="#">© Dairy Business</a></span>
-                <span><a href="#">Contact</a></span>
-                <span><a href="#">Privacy & terms</a></span>
-            </div>
-        </div> -->
     </div>
     <div class="sp-tim">
         <div class="fpb">
-            <label>Enter selling price & time: <br />
-                <input type="number" id="sp" name="sellingprice" value="Selling Price">
+            <label>Enter selling price: <br />
+                <input type="number" name="sellingprice" value="Selling Price" id="sp">
             </label>
         </div>
         <div class="fpb">
-            <label>Enter number of days<br />
-                <input type="number" id="tm" name="totalproduction" value="Number in days">
+            <label>Enter time: <br />
+                <input type="number" name="totalproduction" value="Number in days" id="tm">
             </label>
+        </div>
+        <div class="income-ot">
+            <input type="button" id="iot" name="incomeovertime" value="Generate Income">
+        </div><br/>
+        <div class="income-ot">
+            <input type="button" id="lpy" name="leap incomeovertime" value="Leap year Income">
         </div>
     </div>
 </div>
-<div class="output">
-    <h1>Quantity of milk produced :-</h1>
-    <h2>Per shed</h2>
-    <section id="report">
-        <p id="o1"></p>
-        <p id="o2"></p>
-        <p id="o3"></p>
-        <p id="o4"></p>
-    </section>
-
+<div class="generated-report">
+    <div class="output">
+        <h1>Quantity of milk produced :-</h1>
+        <h2>Per shed</h2>
+        <section id="report">
+            <p id="o1"></p>
+            <p id="o2"></p>
+            <p id="o3"></p>
+            <p id="o4"></p>
+        </section>
+    </div>
+    <div class="output">
+        <h1>Total Production :-</h1>
+        <h2>In all sheds</h2>
+        <section id="report">
+            <p id="totals"></p>
+        </section>
+    </div>
+    <div class="output">
+        <h1>Income Over Time :-</h1>
+        <section id="report">
+            <p id="weeklyIncome"></p>
+            <p id="monthlyIncome"></p>
+            <p id="yearlyIncome"></p>
+        </section>
+    </div>
+    <div class="output">
+        <h1>Income Over Time (LeapYear) :-</h1>
+        <section id="report">
+            <p id="lyIncome"></p>
+        </section>
+    </div>
 </div>
-<div class="output">
-    <h1>Total Production :-</h1>
-    <h2>In all sheds</h2>
-    <section id="report">
-        <p id="totals"></p>
-    </section>
+<div class="footer-link padding-top--24">
+    <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
+        <span><a href="#">© Dairy Business</a></span>
+        <span><a href="#">Contact</a></span>
+        <span><a href="#">Privacy & terms</a></span>
+    </div>
 </div>
-  <div class="footer-link padding-top--24">
-            <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
-                <span><a href="#">© Dairy Business</a></span>
-                <span><a href="#">Contact</a></span>
-                <span><a href="#">Privacy & terms</a></span>
-            </div>
-        </div>
 <script src="./assets/index.js" type="text/javascript"></script>
 
 </body>
