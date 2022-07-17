@@ -9,7 +9,7 @@
 
 /* Navigation Bar */
 .logo {
-    color: rgb(117, 60, 42);
+    color: #1a1f36;
 }
 
 .nav-bar {
@@ -29,7 +29,7 @@
 }
 
 .nav-links>ul>li>a {
-    color: rgb(117, 60, 42);
+    color: #1a1f36;
     list-style: none;
     font-size: 20px;
     text-decoration: none;
@@ -87,7 +87,7 @@
 
 /* Wonderland Dairy */
 .header {
-    height: 1050px;
+    height: 1350px;
     width: 80%;
     margin: auto;
     padding-top: 200px;
@@ -167,7 +167,31 @@ span {
 label {
     margin-bottom: 10px;
 }
-
+.sp-tim label{
+    padding-bottom: 4px;
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 35%;
+    color: #ffffff;
+}
+.sp-tim input{
+    font-size: 16px;
+    line-height: 28px;
+    padding: 5px;
+    width: 100%;
+    min-height: 44px;
+    border: unset;
+    border-radius: 4px;
+    outline-color: rgba(212, 131, 84, 0.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(60, 66, 87, 0.16) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+        rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
 .reset-pass a,
 label {
     font-size: 14px;
@@ -265,7 +289,7 @@ input[type="button"]:hover {
 }
 
 .listing a {
-    color: #ffffff;
+    color: #1a1f36;
     font-weight: 600;
     margin: 0 10px;
 }
