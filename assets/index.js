@@ -49,3 +49,11 @@ var year = [{
     December: 30,
 }];
 
+const incomeOverTime = (sellingPrice, time) =>{
+    sellingPrice = document.getElementById("sp").value;
+    time = document.getElementById("tm").value;
+
+    const weeklyIncome = sellingPrice * (time / 7);
+    const monthlyIncome = sellingPrice * (time / year[1].feb);
+    const yearlyIncome = sellingPrice * (time / 366);
+}
