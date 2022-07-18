@@ -93,7 +93,7 @@
     padding-top: 200px;
     overflow: hidden;
     background: #4a2c2a;
-    background: linear-gradient(rgba(72, 23, 0, 0.384), rgba(192, 72, 72, 0.329)), url('/images/cow-bg.jpg');
+    background: linear-gradient(rgba(72, 23, 0, 0.384), rgba(192, 72, 72, 0.329)), url("/assets/cow-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
